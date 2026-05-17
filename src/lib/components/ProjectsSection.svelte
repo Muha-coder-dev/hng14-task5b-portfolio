@@ -30,7 +30,7 @@
 
 <section id="projects" class="py-32 px-6 md:px-12 bg-black min-h-screen relative z-10">
   <div class="max-w-7xl mx-auto">
-    <Motion let:motion initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+    <Motion let:motion {...({ initial: { opacity: 0, y: 20 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: true }, transition: { duration: 0.6 } } as any)}>
       <h2 use:motion class="text-6xl md:text-8xl font-bold tracking-tighter mb-20 text-white">
         Selected Work
       </h2>
@@ -38,7 +38,7 @@
 
     <div class="space-y-32">
       {#each projects as project, index}
-        <Motion let:motion initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8, delay: index * 0.1 }}>
+        <Motion let:motion {...({ initial: { opacity: 0, y: 50 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: true, margin: "-100px" }, transition: { duration: 0.8, delay: index * 0.1 } } as any)}>
           <div use:motion class="group relative flex flex-col md:flex-row gap-8 items-center border border-zinc-800 hover:border-[#FF4D29] p-8 md:p-12 rounded-2xl transition-colors duration-500">
             <div class="flex-1 space-y-6 z-10 relative">
               <div class="flex items-center gap-4">

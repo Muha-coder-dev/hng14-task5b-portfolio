@@ -15,7 +15,7 @@
   
   <section id="about" class="py-32 px-6 md:px-12 bg-zinc-950 relative border-t border-zinc-900">
     <div class="max-w-7xl mx-auto flex flex-col items-center">
-      <Motion let:motion initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
+      <Motion let:motion {...({ initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: true }, transition: { duration: 0.8 } } as any)}>
         <div use:motion class="max-w-3xl text-center">
           <h2 class="text-[#FF4D29] font-mono tracking-widest uppercase mb-8">The Story.</h2>
           <p class="text-3xl md:text-5xl font-bold leading-tight text-white mb-12 tracking-tight">
