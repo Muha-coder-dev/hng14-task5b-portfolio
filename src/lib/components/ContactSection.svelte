@@ -10,7 +10,7 @@
         <h2 class="text-5xl md:text-9xl font-bold tracking-tighter mb-8 text-white">
           Let's talk <br/> about your <br/> next project.
         </h2>
-        <a href="mailto:hello@muhammadishaq.xyz" class="inline-flex items-center gap-4 text-2xl md:text-5xl font-bold tracking-tight text-[#FF4D29] hover:text-white transition-colors duration-300">
+        <a href="mailto:muhammadsalisi123@gmail.com" class="inline-flex items-center gap-4 text-2xl md:text-5xl font-bold tracking-tight text-[#FF4D29] hover:text-white transition-colors duration-300">
           Get in touch <ArrowUpRight size={48} />
         </a>
       </div>
@@ -19,12 +19,12 @@
 
   <footer class="max-w-7xl mx-auto w-full mt-32 pt-8 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-8">
     <div class="text-zinc-500 font-mono text-sm">
-      © {new Date().getFullYear()} Muhammad. Built with SvelteKit.
+      © {new Date().getFullYear()} Muhammad Is'haq. Built with SvelteKit.
     </div>
     <div class="flex gap-8">
       <a href="https://github.com/lcc33" target="_blank" class="text-white hover:text-[#FF4D29] uppercase tracking-widest text-sm font-bold transition-colors">GitHub</a>
-      <a href="https://linkedin.com" target="_blank" class="text-white hover:text-[#FF4D29] uppercase tracking-widest text-sm font-bold transition-colors">LinkedIn</a>
-      <a href="https://twitter.com" target="_blank" class="text-white hover:text-[#FF4D29] uppercase tracking-widest text-sm font-bold transition-colors">Twitter</a>
+      <a href="https://www.linkedin.com/in/muhammad-salisu-b0a4422b4" target="_blank" class="text-white hover:text-[#FF4D29] uppercase tracking-widest text-sm font-bold transition-colors">LinkedIn</a>
+      <a href="https://x.com/desgnbymuhammad?t=1BYCeOCrtVzVdp-avAaOCg&s=09" target="_blank" class="text-white hover:text-[#FF4D29] uppercase tracking-widest text-sm font-bold transition-colors">Twitter</a>
     </div>
   </footer>
 </section>
