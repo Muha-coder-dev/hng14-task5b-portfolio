@@ -117,7 +117,7 @@
 
         <Motion let:motion initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6, duration: 0.8 }}>
           <div use:motion>
-            <a href="https://hireme.muhammadsalisu.xyz" target="_blank" class="group relative inline-flex items-center justify-center px-10 py-5 border-2 border-white bg-black hover:bg-white hover:text-black transition-all duration-300 text-lg font-medium tracking-wider overflow-hidden rounded-full">
+            <a href="/hireme" class="group relative inline-flex items-center justify-center px-10 py-5 border-2 border-white bg-black hover:bg-white hover:text-black transition-all duration-300 text-lg font-medium tracking-wider overflow-hidden rounded-full">
               <span class="relative z-10">WHY YOU SHOULD HIRE ME</span>
               <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
             </a>

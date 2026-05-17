@@ -19,7 +19,7 @@
 
   <footer class="max-w-7xl mx-auto w-full mt-32 pt-8 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-8">
     <div class="text-zinc-500 font-mono text-sm">
-      © {new Date().getFullYear()} Muhammad Is'haq. Built with SvelteKit.
+      © {new Date().getFullYear()} Muhammad Salisu. Built with SvelteKit.
     </div>
     <div class="flex gap-8">
       <a href="https://github.com/Muha-coder-dev" target="_blank" class="text-white hover:text-[#FF4D29] uppercase tracking-widest text-sm font-bold transition-colors">GitHub</a>
