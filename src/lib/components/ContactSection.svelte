@@ -22,7 +22,7 @@
       © {new Date().getFullYear()} Muhammad Is'haq. Built with SvelteKit.
     </div>
     <div class="flex gap-8">
-      <a href="https://github.com/lcc33" target="_blank" class="text-white hover:text-[#FF4D29] uppercase tracking-widest text-sm font-bold transition-colors">GitHub</a>
+      <a href="https://github.com/Muha-coder-dev" target="_blank" class="text-white hover:text-[#FF4D29] uppercase tracking-widest text-sm font-bold transition-colors">GitHub</a>
       <a href="https://www.linkedin.com/in/muhammad-salisu-b0a4422b4" target="_blank" class="text-white hover:text-[#FF4D29] uppercase tracking-widest text-sm font-bold transition-colors">LinkedIn</a>
       <a href="https://x.com/desgnbymuhammad?t=1BYCeOCrtVzVdp-avAaOCg&s=09" target="_blank" class="text-white hover:text-[#FF4D29] uppercase tracking-widest text-sm font-bold transition-colors">Twitter</a>
     </div>
