@@ -5,6 +5,18 @@
 
 <main class="bg-black text-white min-h-screen font-sans selection:bg-[#FF4D29]/30">
 
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur border-b border-zinc-900 py-4 px-6 md:px-12 flex justify-between items-center">
+    <a href="/" class="text-xl font-bold tracking-tighter text-white hover:text-[#FF4D29] transition-colors">
+      ← Salisu.
+    </a>
+    <div class="flex gap-6 text-sm font-medium tracking-widest">
+      <a href="/#projects" class="text-zinc-400 hover:text-white transition-colors">WORK</a>
+      <a href="/#about" class="text-zinc-400 hover:text-white transition-colors">ABOUT</a>
+      <a href="/#contact" class="text-zinc-400 hover:text-white transition-colors">CONTACT</a>
+    </div>
+  </nav>
+
   <!-- Hero -->
   <section class="min-h-screen flex flex-col items-center justify-center px-6 text-center relative overflow-hidden">
     <div class="absolute inset-0 opacity-[0.03]" style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 60px 60px;"></div>
